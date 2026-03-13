@@ -1,4 +1,4 @@
-namespace MassTransit.Testing.AwesomeAssertions.Test;
+namespace TestingHelpers.MassTransit.AwesomeAssertions.Test;
 
 public class BeEmptyTests
 {

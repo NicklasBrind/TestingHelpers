@@ -3,9 +3,8 @@
     <Project Path="FluentResults.Extensions.AwesomeAssertions/src/FluentResults.Extensions.AwesomeAssertions/FluentResults.Extensions.AwesomeAssertions.csproj" />
     <Project Path="FluentResults.Extensions.AwesomeAssertions/tests/FluentResults.Extensions.AwesomeAssertions.Test/FluentResults.Extensions.AwesomeAssertions.Test.csproj" />
   </Folder>
-  <Folder Name="/MassTransit.Testing.AwesomeAssertions/">
-    <Project Path="MassTransit.Testing.AwesomeAssertions/src/MassTransit.Testing.AwesomeAssertions/MassTransit.Testing.AwesomeAssertions.csproj" />
-    <Project Path="MassTransit.Testing.AwesomeAssertions/tests/MassTransit.Testing.AwesomeAssertions.Test/MassTransit.Testing.AwesomeAssertions.Test.csproj" />
+  <Folder Name="/TestingHelpers.MassTransit.AwesomeAssertions/">
+    <Project Path="TestingHelpers.MassTransit.AwesomeAssertions/src/TestingHelpers.MassTransit.AwesomeAssertions/TestingHelpers.MassTransit.AwesomeAssertions.csproj" />
+    <Project Path="TestingHelpers.MassTransit.AwesomeAssertions/tests/TestingHelpers.MassTransit.AwesomeAssertions.Test/TestingHelpers.MassTransit.AwesomeAssertions.Test.csproj" />
   </Folder>
-  <Folder Name="/MassTransit.Testing.AwesomeAssertions/tests/" />
 </Solution>

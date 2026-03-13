@@ -1,6 +1,6 @@
 using AwesomeAssertions.Execution;
 
-namespace MassTransit.Testing.AwesomeAssertions;
+namespace TestingHelpers.MassTransit.AwesomeAssertions;
 
 public static class FakePublishEndpointExtensions
 {

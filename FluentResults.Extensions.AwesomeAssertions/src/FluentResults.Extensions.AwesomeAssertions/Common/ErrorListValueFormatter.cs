@@ -8,7 +8,7 @@ namespace FluentResults.Extensions.AwesomeAssertions
     {
         public bool CanHandle(object value)
         {
-            return value is List<IError>;
+            return value is not null && value is List<IError>;
         }
 
         public void Format(object value, FormattedObjectGraph formattedGraph, FormattingContext context, FormatChild formatChild)

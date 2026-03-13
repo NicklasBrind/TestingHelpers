@@ -33,7 +33,7 @@ jobs:
         if: github.event_name == 'release'
         run: |
           dotnet pack FluentResults.Extensions.AwesomeAssertions/src/FluentResults.Extensions.AwesomeAssertions -c Release --no-build -o ./nupkgs
-          dotnet pack MassTransit.Testing.AwesomeAssertions/src/MassTransit.Testing.AwesomeAssertions -c Release --no-build -o ./nupkgs
+          dotnet pack TestingHelpers.MassTransit.AwesomeAssertions/src/TestingHelpers.MassTransit.AwesomeAssertions -c Release --no-build -o ./nupkgs
 
       - name: Push to NuGet
         if: github.event_name == 'release'

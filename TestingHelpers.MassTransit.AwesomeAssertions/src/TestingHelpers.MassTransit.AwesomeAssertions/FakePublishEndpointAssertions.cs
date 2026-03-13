@@ -2,7 +2,7 @@ using AwesomeAssertions;
 using AwesomeAssertions.Execution;
 using AwesomeAssertions.Primitives;
 
-namespace MassTransit.Testing.AwesomeAssertions;
+namespace TestingHelpers.MassTransit.AwesomeAssertions;
 
 public class FakePublishEndpointAssertions : ReferenceTypeAssertions<FakePublishEndpoint, FakePublishEndpointAssertions>
 {

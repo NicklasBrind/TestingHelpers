@@ -1,6 +1,6 @@
 using MassTransit;
 
-namespace MassTransit.Testing.AwesomeAssertions;
+namespace TestingHelpers.MassTransit.AwesomeAssertions;
 
 public class FakePublishEndpoint : IPublishEndpoint
 {

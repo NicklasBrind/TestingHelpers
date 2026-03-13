@@ -1,4 +1,4 @@
-namespace MassTransit.Testing.AwesomeAssertions.Test;
+namespace TestingHelpers.MassTransit.AwesomeAssertions.Test;
 
 public record OrderCreated(int OrderId, string CustomerName);
 public record OrderCancelled(int OrderId);

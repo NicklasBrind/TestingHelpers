@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFrameworks>net10.0</TargetFrameworks>
-    <PackageId>MassTransit.Testing.AwesomeAssertions</PackageId>
+    <PackageId>TestingHelpers.MassTransit.AwesomeAssertions</PackageId>
     <Version>1.0.0</Version>
     <Description>Fake implementations and assertion helpers for MassTransit IPublishEndpoint testing</Description>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>

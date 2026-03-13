@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\MassTransit.Testing.AwesomeAssertions\MassTransit.Testing.AwesomeAssertions.csproj" />
+    <ProjectReference Include="..\..\src\TestingHelpers.MassTransit.AwesomeAssertions\TestingHelpers.MassTransit.AwesomeAssertions.csproj" />
   </ItemGroup>
 
 </Project>
