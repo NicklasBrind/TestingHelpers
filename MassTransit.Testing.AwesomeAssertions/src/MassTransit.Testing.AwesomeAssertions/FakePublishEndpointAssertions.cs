@@ -28,6 +28,19 @@ public class FakePublishEndpointAssertions : ReferenceTypeAssertions<FakePublish
         return new AndWhichConstraint<FakePublishEndpointAssertions, IReadOnlyList<T>>(this, messages);
     }
 
+    public AndConstraint<FakePublishEndpointAssertions> BeEmpty(string because = "", params object[] becauseArgs)
+    {
+        AssertionChain.GetOrCreate()
+            .BecauseOf(because, becauseArgs)
+            .Given(() => Subject.PublishedMessages)
+            .ForCondition(messages => messages.Count == 0)
+            .FailWith("Expected no published messages{reason}, but found {0}: {1}",
+                Subject.PublishedMessages.Count,
+                Subject.PublishedMessages.Select(m => m.GetType().Name));
+
+        return new AndConstraint<FakePublishEndpointAssertions>(this);
+    }
+
     public AndConstraint<FakePublishEndpointAssertions> NotHavePublished<T>(string because = "", params object[] becauseArgs) where T : class
     {
         AssertionChain.GetOrCreate()
