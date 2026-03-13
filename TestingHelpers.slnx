@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/FluentResults.Extensions.AwesomeAssertions/">
+    <Project Path="FluentResults.Extensions.AwesomeAssertions/src/FluentResults.Extensions.AwesomeAssertions/FluentResults.Extensions.AwesomeAssertions.csproj" />
+    <Project Path="FluentResults.Extensions.AwesomeAssertions/tests/FluentResults.Extensions.AwesomeAssertions.Test/FluentResults.Extensions.AwesomeAssertions.Test.csproj" />
+  </Folder>
+  <Folder Name="/MassTransit.Testing.AwesomeAssertions/">
+    <Project Path="MassTransit.Testing.AwesomeAssertions/src/MassTransit.Testing.AwesomeAssertions/MassTransit.Testing.AwesomeAssertions.csproj" />
+    <Project Path="MassTransit.Testing.AwesomeAssertions/tests/MassTransit.Testing.AwesomeAssertions.Test/MassTransit.Testing.AwesomeAssertions.Test.csproj" />
+  </Folder>
+  <Folder Name="/MassTransit.Testing.AwesomeAssertions/tests/" />
+</Solution>
